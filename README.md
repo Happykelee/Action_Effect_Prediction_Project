@@ -21,15 +21,15 @@ The analytical pipeline is modularized and organized sequentially from raw data 
 | File Name | Description | Software |
 | :--- | :--- | :--- |
 | `AEP_01_EEG_preprocessing.m` | Core pipeline for raw EEG data preprocessing and cleaning. | MATLAB |
-| `AEP_01b_extract_behavioral_rt.m` | Extraction of raw single-trial reaction times (RTs). | MATLAB |
-| `AEP_01c_standardize_filenames.m` | Utility script for standardizing data filenames. | MATLAB |
-| `AEP_01d_group_rt_cleaning.m` | Group-level behavioral RT cleaning and outlier rejection. | MATLAB |
+| `AEP_01b_extract_behavioral_rt.m` | Function to Extract single-trial reaction times (RTs). | MATLAB |
+| `AEP_01c_standardize_filenames.m` | Function for standardizing data filenames. | MATLAB |
+| `AEP_01d_group_rt_cleaning.m` | Function for outlier epoch rejection based on group‑level RT. | MATLAB |
 | `AEP_02_Behavioral_Performance.ipynb` | Statistical analysis of behavioral data (RTs and accuracy). | Python/Jupyter |
-| `AEP_03a_permutation_stats.py` | Worker script for cluster-based permutation statistical testing. | Python |
+| `AEP_03a_permutation_stats.py` | Utility script for cluster-based permutation statistical testing. | Python |
 | `AEP_03_CSD_Univariate_Analysis.ipynb` | Univariate analyses of event-related Current Source Density (CSD). | Python/Jupyter |
-| `AEP_04a_decoding_worker_pipeline.py` | Backend pipeline and models for multivariate pattern analysis (MVPA). | Python |
+| `AEP_04a_decoding_worker_pipeline.py` | Utility script for multivariate decoding analysis. | Python |
 | `AEP_04_CSD_Multivariate_Decoding.ipynb` | Execution and evaluation of multivariate decoding across time. | Python/Jupyter |
-| `AEP_05_Figures.ipynb` | Generates the exact main and supplementary figures used in the manuscript. | Python/Jupyter |
+| `AEP_05_Figures.ipynb` | Generates the exact main and supplementary figures. | Python/Jupyter |
 
 ### 📁 Data Folders
 * **`matdata/`**: Contains intermediate MATLAB structures necessary for behavioral and marker alignments.
