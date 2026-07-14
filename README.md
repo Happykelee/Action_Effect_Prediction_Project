@@ -66,10 +66,11 @@ The main statistical analyses, multivariate decoding, and visualizations were co
 ## 🚀 Usage Guide
 
 1. **Pre-requisites:** Ensure that you have the intermediate data files placed in the correct `matdata/` and `statdata/` directories as cloned from this repository.
-2. **Behavioral Data:** Run `AEP_02_Behavioral_Performance.ipynb` to reproduce the RT and accuracy statistics.
-3. **Univariate Results:** Run `AEP_03_CSD_Univariate_Analysis.ipynb` for the univariate results. Note that the permutation test (`AEP_03a`) may take considerable computational time depending on your CPU, and also require a large amount of memory — insufficient RAM may cause the process to crash due to memory exhaustion.
-4. **Multivariate Results:** Run `AEP_04_CSD_Multivariate_Decoding.ipynb` for the results of multivariate temporal generalization decoding. The model training step (`AEP_04a`) is time‑consuming but parallelised, and the permutation test for AUC matrices is very memory‑hungry and often crashes on typical workstations, so it has been split into steps with intermediates stored.
-5. **Visualization:** Once all data frames and `.npy` outputs are generated, run `AEP_05_Figures.ipynb` to reproduce the exact topological maps, waveforms, and bar charts seen in the manuscript. These figures need be further formatted and copy‑edited prior to final publication
+2. **EEG preprocessing:** Run `AEP_01_EEG_preprocessing.m` to preprocess EEG data. Note that some steps require interaction with EEGLAB modules as commented in the script, so the whole script is not meant to be run in one go.
+3. **Behavioral Analysis:** Run `AEP_02_Behavioral_Performance.ipynb` to compute the RT and accuracy statistics.
+4. **Univariate Results:** Run `AEP_03_CSD_Univariate_Analysis.ipynb` for the univariate results. Note that the permutation test (`AEP_03a`) may take considerable computational time depending on your CPU, and also require a large amount of memory — insufficient RAM may cause the process to crash due to memory exhaustion.
+5. **Multivariate Results:** Run `AEP_04_CSD_Multivariate_Decoding.ipynb` for the results of multivariate temporal generalization decoding. The model training step (`AEP_04a`) is time‑consuming but parallelised, and the permutation test for AUC matrices is very memory‑hungry and often crashes on typical workstations, so it has been split into steps with intermediates stored.
+6. **Visualization:** Once all data frames and `.npy` outputs are generated, run `AEP_05_Figures.ipynb` to reproduce the exact topological maps, waveforms, and bar charts seen in the manuscript. These figures need be further formatted and copy‑edited prior to final publication
 
 ---
 
