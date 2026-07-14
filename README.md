@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11.8-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the custom code, statistical data, and intermediate datasets used for the behavioral, univariate CSD, and multivariate decoding analyses in our paper: **[Neural Dynamics of Action-Effect Predictions within Effect-Related Regions Diverge Between Stimulus-Driven and Voluntary Actions](osf.io/preprints/psyarxiv/x6hc9_v1)**.
+This repository contains the custom code, statistical data, and intermediate datasets used for the behavioral, univariate CSD, and multivariate decoding analyses in our paper: **[Neural Dynamics of Action-Effect Predictions within Effect-Related Regions Diverge Between Stimulus-Driven and Voluntary Actions](https://psyarxiv.com/x6hc9_v1)**.
 
 ## ⚠️ Important Note on Terminology and Variable Naming
 > **Please read before diving into the code:** 
