@@ -1,6 +1,6 @@
 # Action-Effect Prediction Project
 
-[![Preprint](https://img.shields.io/badge/Preprint-PsyArXiv-blue.svg)](https://psyarxiv.com/[Your-Link-Here])
+[![Preprint](https://img.shields.io/badge/Preprint-PsyArXiv-blue.svg)](https://psyarxiv.com/x6hc9_v1)
 [![Python](https://img.shields.io/badge/Python-3.11.8-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
