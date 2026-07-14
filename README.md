@@ -67,8 +67,8 @@ The main statistical analyses, multivariate decoding, and visualizations were co
 
 1. **Pre-requisites:** Ensure that you have the intermediate data files placed in the correct `matdata/` and `statdata/` directories as cloned from this repository.
 2. **Behavioral Data:** Run `AEP_02_Behavioral_Performance.ipynb` to reproduce the RT and accuracy statistics.
-3. **EEG/CSD Results:** For univariate results, run the `AEP_03` series. Note that the permutation test (`AEP_03a`) may take considerable computational time depending on your CPU.
-4. **Decoding:** Run the `AEP_04` series for the MVPA results. 
+3. **Univariate Results:** Run `AEP_03_CSD_Univariate_Analysis.ipynb` for the univariate results. Note that the permutation test (`AEP_03a`) may take considerable computational time depending on your CPU, and also require a large amount of memory — insufficient RAM may cause the process to crash due to memory exhaustion.
+4. **Multivariate Results:** Run `AEP_04_CSD_Multivariate_Decoding.ipynb` for the results of multivariate temporal generalization decoding. The model training step (`AEP_04a`) is time‑consuming but parallelised, and the permutation test for AUC matrices is very memory‑hungry and often crashes on typical workstations, so it has been split into steps with intermediates stored.
 5. **Visualization:** Once all data frames and `.npy` outputs are generated, run `AEP_05_Figures.ipynb` to reproduce the exact topological maps, waveforms, and bar charts seen in the manuscript.
 
 ---
