@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11.8-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the custom code, statistical data, and intermediate datasets used for the behavioral, univariate CSD, and multivariate decoding analyses in our paper: **[Neural Dynamics of Action-Effect Predictions within Effect-Related Regions Diverge Between Stimulus-Driven and Voluntary Actions](https://psyarxiv.com/x6hc9_v1)**.
+This repository contains the custom code, statistical data, and intermediate datasets used for the behavioral, univariate CSD, and multivariate decoding analyses in our paper: **Neural Dynamics of Action-Effect Predictions within Effect-Related Regions Diverge Between Stimulus-Driven and Voluntary Actions**.
 
 ## ⚠️ Important Note on Terminology and Variable Naming
 > **Please read before diving into the code:** 
@@ -77,6 +77,6 @@ The main statistical analyses, multivariate decoding, and visualizations were co
 
 If you use this code, the statistical pipeline, or the associated datasets in your research, please cite our preprint:
 
-> Zhengting Cai, Alexander Jones, Qing Yang, and Florian Waszak. Neural Dynamics of Action-effect Predictions Within Effect-related Regions Diverge Between Stimulus-driven and Voluntary Actions. *PsyArXiv*, 2026. [osf.io/preprints/psyarxiv/x6hc9_v1](osf.io/preprints/psyarxiv/x6hc9_v1)
+> Zhengting Cai, Alexander Jones, Qing Yang, and Florian Waszak. Neural Dynamics of Action-effect Predictions Within Effect-related Regions Diverge Between Stimulus-driven and Voluntary Actions. *PsyArXiv*, 2026. [osf.io/preprints/psyarxiv/x6hc9_v1](https://osf.io/preprints/psyarxiv/x6hc9_v1).
 
 For any questions, issues, or requests regarding the codebase or data, please feel free to open an issue in this repository or contact the corresponding author at caizhengting2858@gmail.com.
