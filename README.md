@@ -77,6 +77,6 @@ The main statistical analyses, multivariate decoding, and visualizations were co
 
 If you use this code, the statistical pipeline, or the associated datasets in your research, please cite our preprint:
 
-> [Your Name], [Co-authors]. (2026). [Your Paper Title]. *PsyArXiv*. [https://doi.org/10.31234/osf.io/XXXXX](https://psyarxiv.com/[Your-Link-Here])
+> Zhengting Cai, Alexander Jones, Qing Yang, and Florian Waszak. Neural Dynamics of Action-effect Predictions Within Effect-related Regions Diverge Between Stimulus-driven and Voluntary Actions. *PsyArXiv*, 2026. [osf.io/preprints/psyarxiv/x6hc9_v1](osf.io/preprints/psyarxiv/x6hc9_v1)
 
 For any questions, issues, or requests regarding the codebase or data, please feel free to open an issue in this repository or contact the corresponding author at caizhengting2858@gmail.com.
